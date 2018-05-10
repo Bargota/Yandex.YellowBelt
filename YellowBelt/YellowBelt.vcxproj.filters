@@ -27,6 +27,9 @@
     <ClInclude Include="Read_file.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AvrTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Read_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AvrTemperature.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -9,7 +9,7 @@ public:
 	
 	readFile(std::string path);
 
-
+	void getText(std::vector<std::string>& vec);
 	bool number_and_text();
 	
 private:
