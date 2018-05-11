@@ -1,5 +1,3 @@
-﻿  AvrTemperature.cpp
-p:\programm\cpp\yandex.yellowbelt\yellowbelt\avrtemperature.cpp(44): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
-p:\programm\cpp\yandex.yellowbelt\yellowbelt\avrtemperature.cpp(53): warning C4018: '<': signed/unsigned mismatch
+﻿  Read_file.cpp
   YellowBelt.vcxproj -> P:\Programm\Cpp\Yandex.YellowBelt\Debug\YellowBelt.exe
   YellowBelt.vcxproj -> P:\Programm\Cpp\Yandex.YellowBelt\Debug\YellowBelt.pdb (Full PDB)
