@@ -30,6 +30,9 @@
     <ClInclude Include="AvrTemperature.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CubeWeight_1week.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AvrTemperature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeWeight_1week.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,3 +1,10 @@
-﻿  Read_file.cpp
-  YellowBelt.vcxproj -> P:\Programm\Cpp\Yandex.YellowBelt\Debug\YellowBelt.exe
-  YellowBelt.vcxproj -> P:\Programm\Cpp\Yandex.YellowBelt\Debug\YellowBelt.pdb (Full PDB)
+﻿  stdafx.cpp
+  main.cpp
+  Read_file.cpp
+  AvrTemperature.cpp
+c:\v.orlov\programm\cpp\yandex.yellowbelt\yellowbelt\avrtemperature.cpp(44): warning C4244: аргумент: преобразование "double" в "const int", возможна потеря данных
+c:\v.orlov\programm\cpp\yandex.yellowbelt\yellowbelt\avrtemperature.cpp(53): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\v.orlov\Programm\cpp\Yandex.YellowBelt\Debug\YellowBelt.exe при последней инкрементной компоновке; выполняется полная компоновка
+  YellowBelt.vcxproj -> C:\v.orlov\Programm\cpp\Yandex.YellowBelt\Debug\YellowBelt.exe
+  YellowBelt.vcxproj -> C:\v.orlov\Programm\cpp\Yandex.YellowBelt\Debug\YellowBelt.pdb (Full PDB)
