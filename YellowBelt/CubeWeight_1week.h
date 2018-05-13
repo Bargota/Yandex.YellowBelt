@@ -6,11 +6,13 @@
 class Cube
 {
 public:
-	Cube(std::string data,int density);
+	Cube(std::string data,std::string density);
+	int getWeight();
 
 private:
-	int CalcWeight();
+	void CalcWeight(int density);
 
+	int m_density;
 	int m_weight;
 	int m_length;
 	int m_width;
