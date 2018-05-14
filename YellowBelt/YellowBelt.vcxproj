@@ -148,6 +148,7 @@
     <ClInclude Include="AvrTemperature.h" />
     <ClInclude Include="CubeWeight_1week.h" />
     <ClInclude Include="Read_file.h" />
+    <ClInclude Include="region.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -155,6 +156,7 @@
     <ClCompile Include="AvrTemperature.cpp" />
     <ClCompile Include="CubeWeight_1week.cpp" />
     <ClCompile Include="Read_file.cpp" />
+    <ClCompile Include="region.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
