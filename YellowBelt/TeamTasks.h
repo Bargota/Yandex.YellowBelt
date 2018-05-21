@@ -6,7 +6,7 @@
 enum class TaskStatus
 {
 	NEW,
-	iN_PROGRESS,
+	IN_PROGRESS,
 	TESTING,
 	DONE
 };
@@ -18,6 +18,7 @@ class TeamTasks
 public:
 	const TasksInfo& GetPersonTasksInfo(const std::string& person) const;
 	void AddnewTasks(const std::string& person);
+	void PrintTasksInfo(TasksInfo tasks_info);
 	std::tuple<TasksInfo, TasksInfo> PerformPersonTasks(const std::string& person, int task_count);
 
 };
