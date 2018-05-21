@@ -13,7 +13,7 @@ enum class TaskStatus
 
 using TasksInfo = std::map<TaskStatus, int>;
 
-class TemTasks
+class TeamTasks
 {
 public:
 	const TasksInfo& GetPersonTasksInfo(const std::string& person) const;
