@@ -33,7 +33,11 @@
     <ClInclude Include="CubeWeight_1week.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="TeamTasks.h">
+=======
+    <ClInclude Include="region.h">
+>>>>>>> c74c0b0cea862f3010ed4ff4c8c5cdd56b81a69e
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,8 +57,13 @@
     <ClCompile Include="CubeWeight_1week.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="TeamTasks.cpp">
       <Filter>Header Files</Filter>
+=======
+    <ClCompile Include="region.cpp">
+      <Filter>Source Files</Filter>
+>>>>>>> c74c0b0cea862f3010ed4ff4c8c5cdd56b81a69e
     </ClCompile>
   </ItemGroup>
 </Project>

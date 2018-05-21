@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+.vs/YellowBelt/v14/.suo
+.vs/YellowBelt/v14/.suo
+*.db
