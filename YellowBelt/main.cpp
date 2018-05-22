@@ -20,8 +20,8 @@ int main()
 
 	TeamTasks t;
 	t.AddnewTasks("Vova");
-	t.AddnewTasks("Ade");
-	t.AddnewTasks("Vova");
+	
+	t.PerformPersonTasks("Vova", 6);
 	system("pause");
     return 0;
 }
