@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="AvrTemperature.h" />
     <ClInclude Include="CubeWeight_1week.h" />
+    <ClInclude Include="func_sqr_template.h" />
     <ClInclude Include="Read_file.h" />
     <ClInclude Include="region.h" />
     <ClInclude Include="stdafx.h" />

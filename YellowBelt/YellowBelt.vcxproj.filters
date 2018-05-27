@@ -1,69 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AvrTemperature.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeWeight_1week.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="Read_file.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="region.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamTasks.cpp">
+      <Filter>.cpp\1week</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeamTasks.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="region.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="Read_file.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="AvrTemperature.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeWeight_1week.h">
+      <Filter>.h\1week</Filter>
+    </ClInclude>
+    <ClInclude Include="func_sqr_template.h">
+      <Filter>.h\2week</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Read_file.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AvrTemperature.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CubeWeight_1week.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="TeamTasks.h">
-=======
-    <ClInclude Include="region.h">
->>>>>>> c74c0b0cea862f3010ed4ff4c8c5cdd56b81a69e
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Read_file.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AvrTemperature.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CubeWeight_1week.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="TeamTasks.cpp">
-      <Filter>Header Files</Filter>
-=======
-    <ClCompile Include="region.cpp">
-      <Filter>Source Files</Filter>
->>>>>>> c74c0b0cea862f3010ed4ff4c8c5cdd56b81a69e
-    </ClCompile>
+    <Filter Include=".h">
+      <UniqueIdentifier>{233ffea4-112d-4461-b4b9-815e89acccf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".cpp">
+      <UniqueIdentifier>{57619d2f-c6fc-4b68-8362-e9d36e437cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".h\1week">
+      <UniqueIdentifier>{f86edd7a-eacf-46c5-979a-9a65dc2289ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".cpp\1week">
+      <UniqueIdentifier>{4b5d7ae0-c081-474c-95b3-495b982d4d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".cpp\2week">
+      <UniqueIdentifier>{08fd8044-234d-4e46-b5a8-ca1245348953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".h\2week">
+      <UniqueIdentifier>{658ced50-e0bb-4912-a96f-c4bbf511d991}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
