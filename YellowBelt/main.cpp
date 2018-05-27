@@ -7,6 +7,7 @@
 #include <iostream>
 #include "CubeWeight_1week.h"
 #include "region.h"
+#include "TeamTasks.h"
 
 int main()
 {
@@ -17,27 +18,11 @@ int main()
 	std::vector<std::string> p;
 	r.getParams(p);*/
 
-	//Temperature t;
-	//t.Run(data);
-
-	/*for (auto item : data)
-	{
-		int i = 1;
-		Cube c(item, p[1]);
-		std::cout<<"weight cube numder "<<i<<" = " << c.getWeight() << std::endl;
-		i++;
-	}*/
-
-	RegionData r1;
-	std::pair<int, std::string>  p=FindMaxRepetitionCount(r1.reg2);
-	if (p.first != -1)
-	{
-		std::cout << p.second << " " << p.first << std::endl;
-	}
-	else
-	{
-		std::cout << p.second << std::endl;
-	}
+	TeamTasks t;
+	t.AddnewTasks("Vova");
+	t.AddnewTasks("Ade");
+	t.AddnewTasks("Vova");
+	t.PerformPersonTasks("Ade", 89);
 	system("pause");
     return 0;
 }
