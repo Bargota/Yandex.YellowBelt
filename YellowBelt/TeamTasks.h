@@ -16,7 +16,7 @@ using TasksInfo = std::map<TaskStatus, int>;
 
 class TeamTasks
 {
-	int CountActiveTasks(std::string person);
+	int CountTasksPerson(std::string person);
 	std::map<std::string,TasksInfo> persons;
 public:
 	const TasksInfo& GetPersonTasksInfo(const std::string& person) const;
